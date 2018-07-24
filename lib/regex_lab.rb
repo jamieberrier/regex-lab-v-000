@@ -24,10 +24,10 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
- binding.pry
-  if phone.match(/^([0-9]{10})$/)
-    true
-  else
+ #binding.pry
+  if !phone.match(/^([0-9]{10})$/)
     false
+  else
+    true
   end
 end

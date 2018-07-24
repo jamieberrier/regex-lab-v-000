@@ -17,11 +17,11 @@ end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
   #binding.pry
-  if text.match(//)
-    true
-  else
-    false
-  end
+  # if text.match(/\A[A-Z]/)
+  #   true
+  # else
+  #   false
+  # end
 end
 
 def valid_phone_number?(phone)

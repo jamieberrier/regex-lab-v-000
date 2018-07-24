@@ -10,7 +10,7 @@ end
 def words_starting_with_un_and_ending_with_ing(text)
   binding.pry
 
-  text.scan(/\A(un)/)
+  text.scan(/\A(un)/) && text.scan(/\z(ing)/)
 end
 
 def words_five_letters_long(text)

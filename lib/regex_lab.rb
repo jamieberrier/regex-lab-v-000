@@ -11,7 +11,7 @@ def words_starting_with_un_and_ending_with_ing(text)
   binding.pry
 
   #text.scan(/\A(un)/) && text.scan(/(ing)/)
-  text.scan(\b[Uu]n[a-z]*ing\b)
+  text.scan(\b(un)*ing\b)
 end
 
 def words_five_letters_long(text)

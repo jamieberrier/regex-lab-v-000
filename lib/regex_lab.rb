@@ -20,7 +20,7 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
- #binding.pry
+ binding.pry
  phone.match(/[(]?\d{3}[)]?[\s-]?\d{3}[\s-]?\d{4}/) ? true : false
 
 end

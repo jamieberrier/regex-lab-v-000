@@ -25,7 +25,7 @@ end
 
 def valid_phone_number?(phone)
   #binding.pry
-  # if phone.match(/[0-9]/)
+  # if phone.scan(/[0-9]/)
   #   true
   # else
   #   false
